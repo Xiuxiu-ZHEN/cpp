@@ -6,7 +6,7 @@
 /*   By: xzhen <xzhen@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/12 20:32:30 by xzhen             #+#    #+#             */
-/*   Updated: 2026/06/21 18:23:31 by xzhen            ###   ########.fr       */
+/*   Updated: 2026/06/29 11:29:18 by xzhen            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int main(int argc, char** argv) {
         ScalarConverter::convert(argv[1]);
         return 0;
     }
+     ScalarConverter::convert("999999999999999999999999999999999999999");
     std::cout << "\n--- Test 1: Char Literal ---" << std::endl;
     ScalarConverter::convert("a");
 
